@@ -1,0 +1,19 @@
+* {
+  background-color: lightpink;
+  font-family: inter;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  position: static;
+  justify-content: space-around;
+  align-items: center;
+}

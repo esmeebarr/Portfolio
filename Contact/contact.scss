@@ -1,0 +1,38 @@
+
+$breakpoint-tablet: 768px;
+
+* {
+  background-color: lightpink;
+  font-family: inter;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+.bg-text {
+  background-color: lightpink;
+  margin: 50px 50px;
+  padding-left: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  color: white;
+  height: 80vh;
+
+}
+.bg-text::after {
+  color:red;
+  content: attr(data-bg-text);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 300px;
+  height: 50vh;
+  position: absolute;
+  opacity: 0.8;
+}

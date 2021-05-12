@@ -1,0 +1,25 @@
+
+$breakpoint-tablet: 768px;
+
+* {
+  background-color: lightpink;
+  font-family: inter;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.svg {
+  display: inline-block;
+ margin: auto;
+}
+
