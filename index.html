@@ -23,10 +23,10 @@
 <nav class="nav">       
   <ul class="nav__list">         
     <li class="nav__item"><a href="#" class="nav__link">Home</a></li>         
-    <li class="nav__item"><a href="#" nav__link>About</a></li>         
-    <li class="nav__item"><a href="#" nav__link>Skills</a></li>         
-    <li class="nav__item"><a href="#" nav__link>Projects</a></li>         
-    <li class="nav__item"><a href="#" nav__link>Contact</a></li>       </ul>     
+    <li class="nav__item"><a href="#about" nav__link>About</a></li>         
+    <li class="nav__item"><a href="#skills" nav__link>Skills</a></li>         
+    <li class="nav__item"><a href="#projects" nav__link>Projects</a></li>         
+    <li class="nav__item"><a href="#contact" nav__link>Contact</a></li>       </ul>     
   </nav>     
   <header class="header">       
     <h1 class="header__heading">Esmee Barr</h1>       <h1 class="header__subheading">Hi, i'm Esmee.<br> Junior Web Developer.</h1>
@@ -53,7 +53,7 @@
   <br>
   <br>
   <br>
-  <section class="about">
+  <section class="about" id="about">
   <svg class="about__left" width="60" height="1021" viewBox="0 0 60 1021" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M55.3636 669.009L43.4233 665.123V646.228L55.3636 642.342V630.478L3 648.529L3 662.796L55.3636 680.873V669.009ZM34.7812 662.311L14.9659 655.867V655.458L34.7812 649.015V662.311Z" fill="#E60909" fill-opacity="0.82"/>
     <path d="M55.3636 624.176L55.3636 613.437H49.0739V612.951C52.3466 611.443 56.0028 608.144 56.0028 601.803C56.0028 592.855 48.9205 585.874 35.7784 585.874C22.2784 585.874 15.5795 593.161 15.5795 601.778C15.5795 608.349 19.4915 611.494 22.6875 612.951V613.284H3L3 624.176H55.3636ZM35.7273 613.514C28.7216 613.514 24.2472 610.548 24.2472 605.255C24.2472 599.86 28.9261 596.997 35.7273 596.997C42.5795 596.997 47.3352 599.911 47.3352 605.255C47.3352 610.497 42.733 613.514 35.7273 613.514Z" fill="#E60909" fill-opacity="0.82"/>
@@ -86,14 +86,17 @@
     </section>
     <div class="text">
       <br>
-      <h3 class="text__heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      <h3 class="text__heading">Hello I'm Esmee, a developer with a background in Human Geography. </h3>
       <br>
     
     <p class="text__words">
-       Pariatur officiis suscipit quaerat harum, eum nisi quia repellendus tempora. Doloribus ratione atque molestiae, illum aperiam voluptatibus eligendi deleniti omnis porro illo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolorem cupiditate ratione. Animi, a fugit. Molestias maxime culpa eum? Harum nihil deserunt fugit neque reprehenderit aliquid quidem dolores quibusdam facilis!
+      I chose the Nology course as whilst I believe tech is the future, I am passionate about the environment and feel technology plays a huge role in sustainability.
        <br>
        <br>
-       Pariatur officiis suscipit quaerat harum, eum nisi quia repellendus tempora. Doloribus ratione atque molestiae, illum aperiam voluptatibus eligendi deleniti omnis porro illo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolorem cupiditate ratione. Animi, a fugit. Molestias maxime culpa eum? Harum nihil deserunt fugit neque reprehenderit aliquid quidem dolores quibusdam facilis!
+       Although I am from a non-technical background, I have really enjoyed being pushed out of my comfort zone, constantly learning and developing my problem solving abilities. A role in tech would also give me the opportunity to utilise my communication and teamwork skills.
+       <br>
+       <br>
+       Coming from a background of having uninspiring jobs which didn't relate to my interests, a career as a developer would open me up to so many exciting opportunities, as well as offer a stable career path where I can constantly learn and develop new skills.
     </p>
   </div>
 <!-- SKILLS PAGE -->
@@ -131,14 +134,12 @@
 
 
 <div>
-<section class="skills">
+<section class="skills" id="skills">
   <h1 class="skills__one">Skills</h1>
   <h1 class="skills__two">Skills</h1>
   <h1 class="skills__three">Skills</h1>
   </section>
-  <br>
-  <br>
-  <br>
+  
   <section class="icons">
     <div class="fab fa-html5"></div>
     <div class="fab fa-css3-alt"></div>
@@ -156,8 +157,6 @@
     </section>
     
 <!-- //! PROJECTS PAGE --> 
-<br>
-<br>
 <div class="parent">
 <svg class="projects" id="projects" width="1434" height="77" viewBox="0 0 1434 77" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M0.551147 58.9999H11.6222V42.0226H20.929C32.9716 42.0226 39.9773 34.838 39.9773 24.3806C39.9773 13.9743 33.0994 6.63625 21.2102 6.63625H0.551147V58.9999ZM11.6222 33.1505V15.6874H19.0881C25.4801 15.6874 28.5739 19.1647 28.5739 24.3806C28.5739 29.5709 25.4801 33.1505 19.1392 33.1505H11.6222Z" fill="#E60909" fill-opacity="0.82"/>
@@ -198,6 +197,35 @@
     <path fill-rule="evenodd" clip-rule="evenodd" d="M302 376H76V636H302V376ZM72 372V640H306V372H72Z" fill="white"/>
     </svg>
   </div>
+  <div class="portfolio-grid">
+    <div class="portfolio-item grid-1 frontend ui-ux">
+        <div class="overlay">
+            <div class="overlay-content">
+                <h2>Morse Code Translator</h2>
+                <a href="" target="_blank"><button>View Project</button></a>
+            </div>
+        </div>
+        <img src="" alt="">
+    </div>
+    <div class="portfolio-item grid-1 ui-ux">
+        <div class="overlay">
+            <div class="overlay-content">
+                <h2>Calculator</h2>
+                <a href="" target="_blank"><button>View Project</button></a>
+            </div>
+        </div>
+        <img src="" alt="">
+    </div>
+    <div class="portfolio-item grid-2 frontend">
+        <div class="overlay">
+            <div class="overlay-content">
+                <h2>Memory Game</h2><a href="" target="_blank"><button>View Project</button></a>
+            </div>
+        </div>
+        <img src="" alt="">
+    </div>
+    </div>
+</div>   
   </div>
 <!-- CONTACT PAGE -->
 
@@ -205,7 +233,7 @@
 <br>
 <br>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="bg-text" data-bg-text="Contact">
         <a href="https://uk.linkedin.com/in/esmee-barr-0965a81a1" title="LinkedIn"><div id=linkedin class="fab fa-linkedin"></div></a>
         <br>
