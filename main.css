@@ -47,7 +47,7 @@
 }
 
 .header {
-  padding-top: 80px;
+  padding-top: 70px;
   height: 100vh;
 }
 .header__heading {
@@ -64,7 +64,7 @@
   font-size: xx-large;
   font-weight: bolder;
   font-size: 60px;
-  padding-top: 550px;
+  padding-top: 400px;
   color: #e92929;
 }
 
@@ -75,7 +75,7 @@
   position: static;
   color: #e92929;
   justify-content: space-between;
-  padding-top: 1000px;
+  padding-top: 150px;
   margin-left: auto;
 }
 .about__left {
@@ -118,7 +118,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 1000px;
+  padding-top: 100px;
 }
 .skills__two {
   opacity: 0.7;
@@ -157,6 +157,7 @@
   background-color: lightpink;
   margin: 50px 50px;
   padding-left: 100px;
+  padding-right: 100px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -175,5 +176,40 @@
   font-size: 300px;
   height: 50vh;
   position: absolute;
-  opacity: 0.8;
+  opacity: 0.4;
+}
+
+.socials {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.socials a {
+  color: white;
+}
+.socials li {
+  display: inline-block;
+  font-size: 50px;
+  margin-right: 18px;
+  margin-top: 10px;
+}
+
+.social a:hover {
+  color: red;
+}
+
+.button {
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.6em;
+  color: black;
+  background-color: pink;
+  padding: 8px 12px;
+  margin-right: 4px;
+  border: 2px solid black;
 }
